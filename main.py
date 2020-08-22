@@ -9,7 +9,7 @@ def main():
     global count
     global guess_length
     global words
-    words= ['bird','animal','salma','yassin','fruit','hello']
+    words= ['bird','animal','health','building','fruit','hello']
     guess_word = random.choice(words)
     guess_length  = len(guess_word)
     display = '-'* guess_length
